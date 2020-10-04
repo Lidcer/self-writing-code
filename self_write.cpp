@@ -3,14 +3,7 @@
 #include <vector>
 #include <string>
 
-int counter = 0;
-
-void new_function() {
-
-    std::cout << "This code has been self overwritten " << std::to_string(++counter) << std::endl;
-
-}
-
+//inject
 
 int main() {
     const std::string FILE_NAME = "self_write.cpp";
@@ -43,7 +36,6 @@ int main() {
         output << l << std::endl;
     }
     
-    new_function();
     //inject
 
     return 0;
